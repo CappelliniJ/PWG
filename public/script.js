@@ -1,4 +1,4 @@
-const db = require('./db.js');
+const db = require('../server/db.js');
 
 async function generatePassword(length, lowercase, uppercase, number, special) {
   const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
