@@ -2,10 +2,9 @@
     "name": "my-app",
     "version": "1.0.0",
     "scripts": {
-      "start": "http-server -p $PORT ./public"
+        "start": "http-server -p $PORT"
     },
     "dependencies": {
-      "http-server": "^0.12.3"
+        "http-server": "^0.12.3"
     }
-  }
-  
+}
